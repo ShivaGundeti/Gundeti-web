@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    /* background-color: #07161B; */
+    background-image: url(Images/bg-image.png);
+}
+
+#warning {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+ i {
+    font-size: 38px;
+ }
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+#main {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#note  {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+#note2  {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+#circle {
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-field {
+    height: 100px;
+    display: inline-block;
+    margin: 250px 0 80px 15px;
+    text-align: center;
+}
+.text-field h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#personNames {
+    height: 30px;
+    width: 172px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding-left: 10px;
+}
+
+#SubmitName {
+    height: 30px;
+    width: 173px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #3D737F;
+    color: white;
+}
+
+.main p {
+    color: white;
+    margin-top: 10px;
+}
+
+#familyNames {
+    margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.details {
+    margin-top: 80%;
+    font-size: 15px;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+} 
+#family-card .designer{
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+.details h3 {
+    margin-top: 40px;
+    letter-spacing: 1px;
+    height: 20%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.details span {
+  position: relative;
+  top: 40px;
+}
+
+.hr-tag {
+    position: relative;
+    top: 80%;
+    height: 2px;
+    width: 100%;
+    background-color: gray;
+}
+
+.giphy-embed {
+    margin-top: 10%;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

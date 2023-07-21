@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gundeti's web</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="loader()">
+   
+    <div class="logo">
+       <center> <h1><i>Gundeti's</i></h1></center>
+    </div>
+    <div id="warning">
+        <h1 id="warn"></h1>
+    </div>
+    <div id ="main">
+        <div id="circle">
+        <div class="text-field">
+            <h2>let's Connect</h2>
+            <input type="text" id="personNames" placeholder="Enter your Name"> <br>
+            <input type="submit" value="Search" id="SubmitName" onclick="UserNames()">
+            <p id="note"></p>
+            <p id="note2"></p>
+            <h2 id="familyNames"></h2>
+        </div>
+    </div>
+    <div class="hr-tag"></div>
+    <div class="details">
+        <h3>Name: <br> <span class="family" id="familyMan"></span></h3>
+        <h3>Phone: <br> <span class="family" id="familyManPhone"></span></h3>
+        <h3>D.O.B: <br> <span class="family" id="birthday"></span></h3>
+        <h3>Aadhar No: <br> <span  class="family" id="familynumber"></span></h3>
+        <div id="family-card">
+            <marquee behavior="" direction="right">
+
+                <iframe src="https://giphy.com/embed/ejDnXBWCile04bH6io" width="120" height="120" class="giphy-embed"></iframe><p>
+            </marquee>
+            <h6 class="designer">Designed and developed by SHIVA.G</h6>
+    </div>
+ 
+    <script src="index.js"></script>
+</body>
+
+</html>
